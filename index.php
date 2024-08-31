@@ -11,6 +11,7 @@
 <body>
     <h1>sajd</h1>
     <img src="<?php echo esc_url(get_theme_file_uri( 'assets/images/samsung.jpg '))?>" >
+    <?php get_template_part(); ?>
     <?php 
         wp_footer('one') ;
     ?>
